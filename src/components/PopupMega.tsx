@@ -77,19 +77,19 @@ const PopupMega: FunctionComponent<PopupMegaType> = ({ onClose }) => {
     <div className={styles.popupMega}>
       <header className={styles.navbar} onClick={onClose}>
         <div className={styles.work} onClick={onWorkTextClick}>
-          Home
+        主页
         </div>
         <div className={styles.services} onClick={onServicesTextClick}>
-          Services
+        服务
         </div>
         <div className={styles.about} onClick={onAboutTextClick}>
-          About
+        关于我们
         </div>
         <div className={styles.contact} onClick={onContactTextClick}>
-          Contact
+        联系方式
         </div>
         <div className={styles.home} onClick={onHomeTextClick}>
-          Work
+        工作
         </div>
         <div className={styles.x} onClick={onClose}>
           X
